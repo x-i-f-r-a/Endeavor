@@ -74,6 +74,6 @@ If you discover a security vulnerability or bugs within Momentum Web Framework, 
 
 ## License
 
-Momentum framework  is released under the BSD 3-Clause License.
+Momentum Web Framework  is released under the BSD 3-Clause License.
 
 [dart_installation_link]: https://dart.dev/get-dart

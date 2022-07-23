@@ -65,7 +65,8 @@ For detailed documentation, use our [documentation website](https://x-i-f-r-a.gi
 
 ## Versioning
 
-[dart_installation_link]: https://dart.dev/get-dart
+Momentum Web Framework is released by following the standard Semantic Versioning.
+
 
 ## Security Vulnerabilities or Bugs
 
@@ -75,4 +76,4 @@ If you discover a security vulnerability or bugs within Momentum Web Framework, 
 
 Momentum framework  is released under the BSD 3-Clause License.
 
-
+[dart_installation_link]: https://dart.dev/get-dart

@@ -38,9 +38,9 @@ The directory structure is as follows:
 ```text
 MyDreamProject
 └── templates
-    ├── Home_view.dart
+    └── Home_view.dart
 └── Controllers
-    ├── Home.dart
+    └── Home.dart
 ├── pubspec.yaml
 ├── main.dart
 └── isolator.dart

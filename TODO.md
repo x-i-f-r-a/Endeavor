@@ -1,10 +1,9 @@
-#MONGO              - 
-#AUTH               - 
-    #BASIC AUTH     -
-    #JWT AUTH       -
-#FLASH MESSAGE      - Done
-#EMAIL SENDER       - 
-#MAIL RECEIVER      -     
-#CLI IMPROVEMENT    - 
-#WEBSOCKET     
-#FIRESTORE     
+## MONGO              - 
+## BASIC AUTH         - Done
+## JWT AUTH           - Done
+## FLASH MESSAGE      - Done
+## EMAIL SENDER       - 
+## MAIL RECEIVER      -     
+## CLI IMPROVEMENT    - 
+## WEBSOCKET     
+## FIRESTORE     

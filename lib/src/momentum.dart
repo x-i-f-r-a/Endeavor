@@ -3,9 +3,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 import 'package:mime/mime.dart';
-
-import 'package:Momentum/momentum.dart';
-
+import 'Http/request.dart';
+import 'Http/response.dart';
 
 class Momentum {
 
@@ -43,6 +42,7 @@ class Momentum {
     try{
       DateTime today = new DateTime.now();
       if(methods[request.uri.path.toString()].toString() == request.method.toString()){
+       
        
         print('[ ${today.year.toString()}-${today.month.toString().padLeft(2,'0')}-${today.day.toString().padLeft(2,'0')} ${today.hour}:${today.minute}:${today.second.round()} ] ${methods[request.uri.path.toString()].toString()} ${request.uri.path.toString()}');
          
@@ -202,23 +202,32 @@ class Momentum {
       });
   }
   
-   Future<void> runServer( { String? host='127.0.0.1', int port=80, bool compress = true, bool isShared = false}) async {
+   Future<void> runServer( {final server='', String? host='127.0.0.1', int port=80, bool compress = true, bool isShared = false}) async {
 
     
     
-    if(host==''){
-      final address = InternetAddress.loopbackIPv4;
-      final server = await createServer(port, address.toString(), isShared: isShared );
-      print('[ INFO ] SERVER STARTED AT ${address.toString()}:$port/');
+    if(server is HttpServer){
+      
+      print('[ INFO ] SERVER STARTED');
       
       _HandleHttpRequest(server, compress);
       
+    
     }else{
-      final server = await createServer(port, host.toString(), isShared: isShared );
-      print('[ INFO ] SERVER STARTED AT http://$host:$port/');
-      
-      _HandleHttpRequest(server, compress);
+      if(host==''){
+        final address = InternetAddress.loopbackIPv4;
+        final createserver = await createServer(port, address.toString(), isShared: isShared );
+        print('[ INFO ] SERVER STARTED AT ${address.toString()}:$port/');
+        
+        _HandleHttpRequest(createserver, compress);
+        
+      }else{
+        final createserver = await createServer(port, host.toString(), isShared: isShared );
+        print('[ INFO ] SERVER STARTED AT http://$host:$port/');
+        
+        _HandleHttpRequest(createserver, compress);
 
+      }
     }
     
     

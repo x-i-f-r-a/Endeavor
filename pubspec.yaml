@@ -1,11 +1,17 @@
-name: Momentum
-description: A high performance web framewrok in dart
+name: momentum_web
+description: A high performance web framework for the web wizards.
   
-version: 0.1.5
+version: 0.2.6
+homepage: https://github.com/x-i-f-r-a/Momentum
+
+platforms:
+  linux:
+  macos:
+  windows:
 
 environment:
   sdk: '>=2.17.5 <3.0.0'
   
-dependencies: { mime: ^1.0.2, mongo_dart: ^0.7.4+1, mysql1: ^0.20.0, mysql_client: ^0.0.24, path: ^1.8.2, sqlite3: ^1.7.2, watcher: ^1.0.1,}
+dependencies: { mime: ^1.0.2, mysql1: ^0.20.0,  path: ^1.8.2, sqlite3: ^1.7.2, watcher: ^1.0.1,}
   
   

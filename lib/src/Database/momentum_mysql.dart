@@ -43,8 +43,8 @@ class MomentumMySql{
     return data;
   }
 
-  FutureOr FetchByCondition(String TABLE) async {
-    final data = await _con?.query('SELECT * FROM $TABLE;');
+  FutureOr FetchByCondition(String QUERY) async {
+    final data = await _con?.query('$QUERY;');
     return data;
   }
 

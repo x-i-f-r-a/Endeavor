@@ -1,4 +1,4 @@
-v0.2.6 (28-7-2022)
+v0.1.6 (12-08-2022)
 
-* Isolator support for clustering
+* First public release
 * Minor bug fixes

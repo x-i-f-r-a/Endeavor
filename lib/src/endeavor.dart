@@ -6,12 +6,12 @@ import 'package:mime/mime.dart';
 import 'Http/request.dart';
 import 'Http/response.dart';
 
-class Momentum {
+class Endeavor {
 
   Map? cors;
   Map? basicAuth;
 
-  Momentum({this.cors=const{}, this.basicAuth=const{},});
+  Endeavor({this.cors=const{}, this.basicAuth=const{},});
 
   List<Function> functions = [];
   List<String> paths = [];

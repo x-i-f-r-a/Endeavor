@@ -60,7 +60,7 @@ By default port `80` is used. A custom port can be used inside the app's port op
 
 ## Documentation
 
-For detailed documentation, use our [documentation website](https://x-i-f-r-a.github.io/Momentum-docs/)
+For detailed documentation, use our [documentation website](https://x-i-f-r-a.github.io/Endeavor-docs/)
 
 
 ## Versioning

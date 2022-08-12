@@ -1,7 +1,7 @@
 
 import 'dart:io';
 
-import 'package:Endeavor/endeavor.dart';
+import 'package:endeavor/endeavor.dart';
 
 void main() async {
 

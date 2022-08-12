@@ -1,9 +1,9 @@
 # Endeavor Web Framework
 ## Overview 
 
-Momentum is a web framework written in Dart programming language and is inspired by frameworks like [Laravel](https://laravel.com), [Ruby on Rails](https://rubyonrails.org), and [Express Js](https://expressjs.com).
+Endeavor is a web framework written in Dart programming language and is inspired by frameworks like [Ruby on Rails](https://rubyonrails.org), and [Express Js](https://expressjs.com).
 
-The goal of Momentum web framework is to provide developers effectively build backends in Dart. Currently, Dart is mainly used for developing client-side apps using Flutter. Our idea is to use Dart language for developing server-side applications also.  
+The goal of Endeavor framework is to provide developers effectively build backends in Dart. Currently, Dart is mainly used for developing client-side apps using Flutter. Our idea is to use Dart language for developing server-side applications also.  
 
 ## Quick Start 
 
@@ -15,7 +15,7 @@ In order to use Endeavor you must have the [Dart SDK][dart_installation_link] in
 Endeavor requires Dart `">=2.17.0 <3.0.0"`
 
 
-### Installing Momentum CLI Tool 
+### Installing Endeavor CLI Tool 
 
 ```shell
 #  Install the Endeavor cli from pub.dev
@@ -60,7 +60,7 @@ By default port `80` is used. A custom port can be used inside the app's port op
 
 ## Documentation
 
-For detailed documentation, use our [documentation website](https://x-i-f-r-a.github.io/Momentum-docs/)
+For detailed documentation, use our [documentation website](https://x-i-f-r-a.github.io/Endeavor-docs/)
 
 
 ## Versioning

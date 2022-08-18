@@ -1,4 +1,3 @@
-v0.1.6 (12-08-2022)
+v0.1.8 (18-08-2022)
 
-* First public release
 * Minor bug fixes

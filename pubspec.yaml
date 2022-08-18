@@ -1,7 +1,7 @@
 name: endeavor
 description: A high performance web framework for the web wizards.
   
-version: 0.1.6
+version: 0.1.8
 homepage: https://github.com/x-i-f-r-a/Endeavor
 
 platforms:

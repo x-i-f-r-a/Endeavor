@@ -20,17 +20,17 @@ Endeavor requires Dart `">=2.17.0 <3.0.0"`
 ```shell
 #  Install the Endeavor cli from pub.dev
 
-dart pub global activate ecli
+dart pub global activate ectl
 
 ```
 
 ### Creating a New Project 
 
-Use the `ecli create <project name>` command to create a new project.
+Use the `ectl create <project name>` command to create a new project.
 
 ```shell
 #  Create a new project called "MyDreamProject"
-ecli create MyDreamProject
+ectl create MyDreamProject
 ```
 
 The directory structure is as follows:
@@ -52,7 +52,7 @@ Next, open the newly directory of created project and start the dev server by:
 
 ```shell
 #  Start the development server
-ecli dev
+ectl dev
 ```
 
 

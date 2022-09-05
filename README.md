@@ -70,7 +70,7 @@ Endeavor Framework is released by following the standard Semantic Versioning.
 
 ## Security Vulnerabilities or Bugs
 
-If you discover a security vulnerability or bugs within Endeavor Framework, please send an e-mail to Gokul krishnan via gokulkrishnan@gmail.com. All security vulnerabilities and bugs will be promptly addressed.
+If you discover a security vulnerability or bugs within Endeavor Framework, please send an e-mail to Gokul krishnan via gokulkrishnan5058@gmail.com. All security vulnerabilities and bugs will be promptly addressed.
 
 ## License
 

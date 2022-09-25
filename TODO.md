@@ -1,4 +1,3 @@
-## MONGO              - 
 ## BASIC AUTH         - Done
 ## JWT AUTH           - Done
 ## FLASH MESSAGE      - Done

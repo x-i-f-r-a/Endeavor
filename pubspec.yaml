@@ -1,0 +1,18 @@
+name: endeavor
+description: Endeavor is a web framework written in Dart programming language and is inspired by frameworks like Ruby on Rails, and Express Js. The goal of Endeavor framework is to provide developers effectively build backends in Dart. Currently, Dart is mainly used for developing client-side apps using Flutter. Our idea is to use Dart language for developing server-side applications also.
+  
+version: 0.1.9
+
+homepage: https://github.com/x-i-f-r-a/Endeavor
+
+platforms:
+  linux:
+  macos:
+  windows:
+
+environment:
+  sdk: '>=2.17.5 <3.0.0'
+  
+dependencies: { mime: ^1.0.2, path: ^1.8.2, watcher: ^1.0.1,}
+  
+  

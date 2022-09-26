@@ -1,8 +1,4 @@
-
-import 'dart:io';
-
-import 'package:endeavor/endeavor.dart';
-
+import 'package:endeavor/Endeavor.dart';
 void main() async {
 
               
@@ -13,10 +9,11 @@ void main() async {
     res.sendString('Ta daa');
   });
 
-  app.GET('/home', RootController().home);
+  app.POST('/', (Request req, Response res) async {
+    
+    print(await req.body()); 
 
-  
-  var server = await HttpServer.bind('127.0.0.1', 80, shared: true);
+  });
 
   await app.runServer();
 
@@ -33,3 +30,5 @@ class RootController{
     
   }
 }
+
+

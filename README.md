@@ -11,6 +11,7 @@ The goal of Endeavor framework is to provide developers effectively build backen
 
 In order to use Endeavor you must have the [Dart SDK][dart_installation_link] installed on your machine.
 
+This repository contains only core of Endeavor framework. There is no installation from this repo. So in order to use this framework , kindly use below instructions.
 
 Endeavor requires Dart `">=2.17.0 <3.0.0"`
 
@@ -70,7 +71,7 @@ Endeavor Framework is released by following the standard Semantic Versioning.
 
 ## Security Vulnerabilities or Bugs
 
-If you discover a security vulnerability or bugs within Endeavor Framework, please send an e-mail to Gokul krishnan via gokulkrishnan@gmail.com. All security vulnerabilities and bugs will be promptly addressed.
+If you discover a security vulnerability or bugs within Endeavor Framework, please send an e-mail to Gokul krishnan via gokulkrishnan5058@gmail.com. All security vulnerabilities and bugs will be promptly addressed.
 
 ## License
 

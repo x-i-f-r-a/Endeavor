@@ -2,7 +2,7 @@ import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:endeavor/endeavor.dart';
+import 'package:endeavor/Endeavor.dart';
 import 'package:mime/mime.dart';
 
 class Request {

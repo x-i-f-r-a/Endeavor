@@ -10,4 +10,4 @@ v1.0.0 (26-09-2022)
 
 * Major bug patched
   - GET, POST, PUT not working together was the issue
-* Do not use later versions anymore. Use only this latest version. 
+* Do not use older versions anymore. Use only from this latest version. 

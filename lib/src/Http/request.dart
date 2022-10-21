@@ -39,31 +39,40 @@ class Request {
 
   Future body() async {
     final bodyData = await req!.cast<List<int>>().transform(Utf8Decoder()).join();
-    return bodyData;
+    var queryParams = Uri(query: bodyData).queryParameters;
+    return queryParams;
   }
 
   FutureOr DownloadFile() async {
     List<int> bytes = [];
     try{
+       
       await for(var data in req!){
         bytes.addAll(data);
+       
       }
+      print('[ Receiving File ]');
       final boundary = req?.headers.contentType?.parameters['boundary'];
+
 
       final transformer = MimeMultipartTransformer(boundary!);
       final stream = Stream.fromIterable([bytes]);
-
+     
       final parts = await transformer.bind(stream).toList();
 
       for(var part in parts){
-        var content_deposition = part.headers['content-deposition'];
+        var content_deposition = part.headers['content-disposition'];
+        
         var fileName = RegExp(r'filename="([^"]*)"')
                       .firstMatch(content_deposition!)
                       ?.group(1);
+       print('[ File Received ] : '+fileName.toString());
 
         var content = await part.toList();
 
-        await File(Directory.current.path+'/img/'+fileName!).writeAsBytes(content[0]);
+        await File(Directory.current.path+'/Files/'+fileName!).create(recursive: true).then((value) {
+          value.writeAsBytes(content[0]);
+        });
 
         
 

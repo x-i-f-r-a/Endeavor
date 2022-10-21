@@ -1,6 +1,6 @@
 # Endeavor Web Framework
-#### Status 
-* Beta
+### Status 
+* Stable
 
 ## Overview 
 

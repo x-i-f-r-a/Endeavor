@@ -503,9 +503,7 @@ class Endeavor {
 
 
   void _Handle(HttpRequest request){
-    
-
-    print(request.method.toString());
+  
     
     switch(request.method.toString()){
 

@@ -10,7 +10,7 @@ v1.0.0 (26-09-2022)
 
 * Major bug patched
     - GET, POST, PUT not working together was the issue.
-* Do not use older versions anymore. Use only from this latest version. 
+ * Do not use older versions anymore. Use only from this latest version. 
 
 v1.0.1 (21-10-2022)
 
@@ -20,6 +20,3 @@ v1.0.1 (21-10-2022)
     - File uploading bugs is patched.
     
 * Endeavor Framework is now stable from this version :tada: .
-  - GET, POST, PUT not working together was the issue.
-* Do not use older versions anymore. Use only from this latest version. 
-

@@ -1,7 +1,7 @@
 # Endeavor Web Framework
 ### Status 
 
-* Stable
+* Stable (v1.0.1)
 
 ## Overview 
 

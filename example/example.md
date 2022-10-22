@@ -1,8 +1,6 @@
 ```dart
 // example.dart 
 
-import 'dart:io';
-
 import 'package:endeavor/endeavor.dart';
 
 void main() async {
@@ -11,13 +9,47 @@ void main() async {
   final app = Endeavor();
 
 
+  // Html response
+
   app.GET('/', (Request req, Response res){
-    res.sendString('Ta daa');
+    res.HTML(
+
+      '''
+       <!doctype html>
+        <html>
+        <body>
+          <form action="/download" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" /><br />
+            
+            <button type="submir">Save</button>
+          </form>
+        </body>
+        </html>
+      
+      
+      '''
+
+
+
+    );
   });
 
-  app.GET('/home', RootController().home);
+  // Get POST data
 
-  
+  app.POST('/', (Request req, Response res) async {
+    
+    print(await req.body()); 
+
+  });
+
+  // Download a html form upload file
+  app.POST('/download', (Request req, Response res) async {
+
+    req.DownloadFile();
+
+  });
+
+
   await app.runServer();
 
 }
@@ -33,6 +65,9 @@ class RootController{
     
   }
 }
+
+
+
 
 ```
 

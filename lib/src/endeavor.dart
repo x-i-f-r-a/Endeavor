@@ -1,4 +1,3 @@
-
 import 'dart:async';
 import 'dart:convert';
 import 'dart:io';
@@ -549,7 +548,6 @@ class Endeavor {
     server.serverHeader = 'Endeavor';
 
     await for(HttpRequest request in server)  {
-      
       
       try{
         

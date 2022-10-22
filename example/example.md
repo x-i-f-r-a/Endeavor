@@ -18,8 +18,6 @@ void main() async {
   app.GET('/home', RootController().home);
 
   
-  var server = await HttpServer.bind('127.0.0.1', 80, shared: true);
-
   await app.runServer();
 
 }

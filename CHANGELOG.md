@@ -12,7 +12,7 @@ v1.0.0 (26-09-2022)
     - GET, POST, PUT not working together was the issue.
  * Do not use older versions anymore. Use only from this latest version. 
 
-v1.0.0-stable (21-10-2022)
+v1.0.1 (21-10-2022)
 
 * Minor bugs patched
     - Html form POST request giving base64 value for special characters.
